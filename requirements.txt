@@ -192,3 +192,8 @@ seaborn
 
 # SpaCy: A powerful NLP library ~50 MB (core library; language models + ~300 MB or more per model).
 #spacy
+
+# ======================================================
+# NETWORKING / HTTP
+# ======================================================
+requests
