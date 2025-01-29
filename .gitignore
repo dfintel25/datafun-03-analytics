@@ -3,6 +3,9 @@
 # Python virtual environment folder
 .venv/
 
+# Python .venv activation
+.venv\Scripts\activate
+
 # Visual Studio Code settings and workspace folder
 .vscode/
 
