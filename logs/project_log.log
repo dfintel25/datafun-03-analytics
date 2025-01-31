@@ -101,3 +101,25 @@
 2025-01-31 13:52:35.902 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
 2025-01-31 13:52:35.902 | INFO     | __main__:<module>:78 - Starting CSV processing...
 2025-01-31 13:52:35.903 | ERROR    | __main__:analyze_ladder_score:53 - Error processing CSV file: [Errno 2] No such file or directory: 'fintel_solar\\fintel_solar.csv'
+2025-01-31 14:01:55.455 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:01:55.455 | INFO     | __main__:<module>:78 - Starting CSV processing...
+2025-01-31 14:01:55.456 | ERROR    | __main__:analyze_ladder_score:53 - Error processing CSV file: 'Ladder score'
+2025-01-31 14:13:31.947 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:13:31.947 | INFO     | __main__:<module>:78 - Starting CSV processing...
+2025-01-31 14:13:31.986 | INFO     | __main__:process_csv_file:71 - Processed CSV file: fintel_solar\fintel_solar, Statistics saved to: fintel_solar_processed\fintel_solar_processed.txt
+2025-01-31 14:13:31.986 | INFO     | __main__:<module>:80 - CSV processing complete.
+2025-01-31 14:14:47.383 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:14:47.383 | INFO     | __main__:<module>:78 - Starting CSV processing...
+2025-01-31 14:14:47.385 | ERROR    | __main__:analyze_ladder_score:53 - Error processing CSV file: 'Shape_Area'
+2025-01-31 14:15:16.127 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:15:16.128 | INFO     | __main__:<module>:78 - Starting CSV processing...
+2025-01-31 14:15:16.166 | INFO     | __main__:process_csv_file:71 - Processed CSV file: fintel_solar\fintel_solar, Statistics saved to: fintel_solar_processed\fintel_solar_processed.txt
+2025-01-31 14:15:16.166 | INFO     | __main__:<module>:80 - CSV processing complete.
+2025-01-31 14:16:10.689 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:16:10.689 | INFO     | __main__:<module>:78 - Starting CSV processing...
+2025-01-31 14:16:10.731 | INFO     | __main__:process_csv_file:71 - Processed CSV file: fintel_solar\fintel_solar, Statistics saved to: fintel_solar_processed\fintel_solar_processed.txt
+2025-01-31 14:16:10.731 | INFO     | __main__:<module>:80 - CSV processing complete.
+2025-01-31 14:18:41.602 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:18:41.603 | INFO     | __main__:<module>:74 - Starting CSV processing...
+2025-01-31 14:18:41.636 | INFO     | __main__:process_csv_file:67 - Processed CSV file: fintel_solar\fintel_solar, Statistics saved to: fintel_solar_processed\fintel_solar_processed.txt
+2025-01-31 14:18:41.636 | INFO     | __main__:<module>:76 - CSV processing complete.
