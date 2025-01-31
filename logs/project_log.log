@@ -64,3 +64,7 @@
 2025-01-31 11:34:08.203 | INFO     | __main__:<module>:52 - Starting text processing...
 2025-01-31 11:34:08.206 | INFO     | __main__:process_text_file:45 - Processed text file: example_data\romeo.txt, Word count saved to: example_processed\text_romeo_word_count.txt
 2025-01-31 11:34:08.206 | INFO     | __main__:<module>:54 - Text processing complete.
+2025-01-31 12:01:27.554 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 12:01:27.555 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-01-31 12:01:27.568 | INFO     | __main__:process_excel_file:54 - Processed Excel file: example_data\feedback.xlsx, Word count saved to: example_processed\excel_feedback_github_count.txt
+2025-01-31 12:01:27.569 | INFO     | __main__:<module>:63 - Excel processing complete.
