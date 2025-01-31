@@ -174,3 +174,18 @@
 2025-01-31 14:44:59.284 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
 2025-01-31 14:44:59.285 | INFO     | __main__:process_excel_file:54 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
 2025-01-31 14:44:59.286 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-01-31 14:49:34.820 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:49:34.820 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-01-31 14:49:34.821 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-01-31 14:49:34.822 | INFO     | __main__:process_excel_file:54 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 14:49:34.822 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-01-31 14:50:21.492 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:50:21.493 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-01-31 14:50:21.493 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-01-31 14:50:21.495 | INFO     | __main__:process_excel_file:54 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 14:50:21.496 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-01-31 14:51:20.466 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:51:20.467 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-01-31 14:51:20.468 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-01-31 14:51:20.469 | INFO     | __main__:process_excel_file:55 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 14:51:20.469 | INFO     | __main__:<module>:64 - Excel processing complete.

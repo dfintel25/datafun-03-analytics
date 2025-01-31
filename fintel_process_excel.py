@@ -12,6 +12,7 @@ import pathlib
 
 # Import from external packages
 import openpyxl
+import xlrd
 
 # Import from local project modules
 from utils_logger import logger
