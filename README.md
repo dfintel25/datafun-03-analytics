@@ -41,5 +41,5 @@ py fintel_get_text.py
 py fintel_process_csv.py
 py fintel_process_excel.py
 py fintel_process_json.py
+py fintel_process_text.py
 ```
-py fintel_process_text.py```
