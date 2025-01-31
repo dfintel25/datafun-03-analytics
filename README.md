@@ -28,15 +28,15 @@ fintel_process_excel.py
 fintel_process_json.py
 fintel_process_text.py
 ```
-## Commands
-### Data Fetchers:
+### Commands
+**Data Fetchers:**
 ```
 py fintel_get_csv.py
 py fintel_get_excel.py
 py fintel_get_json.py
 py fintel_get_text.py
 ```
-### Data Processors:
+**Data Processors:**
 ```
 py fintel_process_csv.py
 py fintel_process_excel.py
