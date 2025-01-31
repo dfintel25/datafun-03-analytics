@@ -20,8 +20,8 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name: str = "example_data"
-processed_folder_name: str = "example_processed"
+fetched_folder_name: str = "building_energy.xls"
+processed_folder_name: str = "building_energy_processed.xls"
 
 #####################################
 # Define Functions
@@ -42,11 +42,11 @@ def count_word_in_column(file_path: pathlib.Path, column_letter: str, word: str)
         return 0
 
 def process_excel_file():
-    """Read an Excel file, count occurrences of 'GitHub' in a specific column, and save the result."""
-    input_file = pathlib.Path(fetched_folder_name, "feedback.xlsx")
-    output_file = pathlib.Path(processed_folder_name, "excel_feedback_github_count.txt")
-    column_to_check = "A"  # Replace with the appropriate column letter
-    word_to_count = "GitHub"
+    """Read an Excel file, count occurrences of 'Streetlights' in a specific column, and save the result."""
+    input_file = pathlib.Path(fetched_folder_name, "building_energy.xls")
+    output_file = pathlib.Path(processed_folder_name, "building_energy_processed.xls")
+    column_to_check = "X"  # Replace with the appropriate column letter
+    word_to_count = "Streetlights"
     word_count = count_word_in_column(input_file, column_to_check, word_to_count)
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with output_file.open('w') as file:
