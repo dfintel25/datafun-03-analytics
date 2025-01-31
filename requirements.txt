@@ -202,3 +202,9 @@ requests
 # Logging Library
 # ======================================================
 loguru
+
+# ======================================================
+# Excel analysis
+# ======================================================
+#openpyxl,a Python library to r/w Excel 2010 xlsx/xlsm/xltx/xltm files.
+openpyxl
