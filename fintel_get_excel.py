@@ -15,64 +15,63 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name = "fintel_solar.csv"
+fetched_folder_name = "building_energy.xls"
 
 #####################################
 # Define Functions
 #####################################
 
-def fetch_csv_file(folder_name: str, filename: str, url: str) -> None:
+def fetch_excel_file(folder_name: str, filename: str, url: str) -> None:
     """
-    Fetch CSV data from the given URL and write it to a file.
+    Fetch Excel data from the given URL and write it to a file.
 
     Args:
         folder_name (str): Name of the folder to save the file.
         filename (str): Name of the output file.
-        url (str): URL of the CSV file to fetch.
+        url (str): URL of the Excel file to fetch.
 
     Returns:
         None
 
     Example:
-        fetch_csv_file("data", "data.csv", "https://example.com/data.csv")
+        fetch_excel_file("data", "data.xlsx", "https://example.com/data.xlsx")
     """
     if not url:
         logger.error("The URL provided is empty. Please provide a valid URL.")
         return
 
     try:
-        logger.info(f"Fetching CSV data from {url}...")
+        logger.info(f"Fetching Excel data from {url}...")
         response = requests.get(url)
         response.raise_for_status()
-        write_csv_file(folder_name, filename, response.text)
-        logger.info(f"SUCCESS: CSV file fetched and saved as {filename}")
+        write_excel_file(folder_name, filename, response.content)
+        logger.info(f"SUCCESS: Excel file fetched and saved as {filename}")
     except requests.exceptions.HTTPError as http_err:
         logger.error(f"HTTP error occurred: {http_err}")
     except requests.exceptions.RequestException as req_err:
         logger.error(f"Request error occurred: {req_err}")
 
-def write_csv_file(folder_name: str, filename: str, string_data: str) -> None:
+def write_excel_file(folder_name: str, filename: str, binary_data: bytes) -> None:
     """
-    Write CSV data to a file.
+    Write Excel binary data to a file.
 
     Args:
         folder_name (str): Name of the folder to save the file.
         filename (str): Name of the output file.
-        string_data (str): CSV content as a string.
+        binary_data (bytes): Binary content of the Excel file.
 
     Returns:
         None
     """
     file_path = pathlib.Path(folder_name).joinpath(filename)
     try:
-        logger.info(f"Writing CSV data to {file_path}...")
+        logger.info(f"Writing Excel data to {file_path}...")
         file_path.parent.mkdir(parents=True, exist_ok=True)
-        #with file_path.open('w') as file:
-        with open(f"{folder_name}/{filename}", "w", encoding="utf-8-sig") as file:
-            file.write(string_data)
-        logger.info(f"SUCCESS: CSV data written to {file_path}")
+        with file_path.open('wb') as file:
+            file.write(binary_data)
+        logger.info(f"SUCCESS: Excel data written to {file_path}")
     except IOError as io_err:
-        logger.error(f"Error writing CSV data to {file_path}: {io_err}")
+        logger.error(f"Error writing Excel data to {file_path}: {io_err}")
 
 #####################################
 # Define main() function
@@ -80,11 +79,11 @@ def write_csv_file(folder_name: str, filename: str, string_data: str) -> None:
 
 def main():
     """
-    Main function to demonstrate fetching CSV data.
+    Main function to demonstrate fetching Excel data.
     """
-    csv_url = 'https://github.com/dfintel25/Sample-Data/raw/refs/heads/main/Solar_Footprints_V2_7811899327930675815.csv'
-    logger.info("Starting CSV fetch demonstration...")
-    fetch_csv_file(fetched_folder_name, "fintel_solar.csv", csv_url)
+    excel_url = 'https://github.com/dfintel25/Sample-Data/raw/refs/heads/main/municipal-building-energy-and-water-use.xlsx'
+    logger.info("Starting Excel fetch demonstration...")
+    fetch_excel_file(fetched_folder_name, "building_energy.xls", excel_url)
 
 #####################################
 # Conditional Execution

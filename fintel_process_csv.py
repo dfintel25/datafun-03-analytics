@@ -15,7 +15,7 @@ from utils_logger import logger
 #####################################
 
 fetched_folder_name: str = "fintel_solar"
-processed_folder_name: str = "fintel_solar_processed"
+processed_folder_name: str = "fintel_solar_csv_processed"
 
 #####################################
 # Define Functions
@@ -52,7 +52,7 @@ def analyze_solar_acres(file_path: pathlib.Path) -> dict:
 def process_csv_file():
     """Read a CSV file, analyze Acres, and save the results."""
     input_file = pathlib.Path(fetched_folder_name, "fintel_solar")
-    output_file = pathlib.Path(processed_folder_name, "fintel_solar_processed.txt")
+    output_file = pathlib.Path(processed_folder_name, "fintel_solar_csv_processed.txt")
     
     stats = analyze_solar_acres(input_file)
     output_file.parent.mkdir(parents=True, exist_ok=True)

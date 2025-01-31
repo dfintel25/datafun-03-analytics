@@ -1,0 +1,5 @@
+Solar Acres Statistics:
+Minimum: 0.00
+Maximum: 7438.60
+Mean: 27.84
+Standard Deviation: 185.73
