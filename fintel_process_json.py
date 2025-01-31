@@ -42,19 +42,19 @@ processed_folder_name: str = "tobacco_usage_json_processed"
 # Define Functions
 #####################################
 
-def count_astronauts_by_item(file_path: pathlib.Path) -> dict:
+def count_Totals_Per_Capita(file_path: pathlib.Path) -> dict:
     """Count the Total Per Capita from a JSON file."""
     try:
         with file_path.open('r') as file:
             # Use the json module load() function 
             # to read data file into a Python dictionary
-            astronaut_dictionary = json.load(file)  
+            tobacco_usage = json.load(file)  
             # initialize an empty dictionary to store the counts
             item_counts_dictionary = {}
             # Total Per Capita is a list of dictionaries in the JSON file
-            Total_Per_Capita_list: list = astronaut_dictionary.get("Total Per Capita", [])
-            for person_dictionary in Total_Per_Capita_list:  
-                item = person_dictionary.get("item", "count")
+            Total_Per_Capita_list: list = tobacco_usage.get("Total Per Capita", [])
+            for name_dictionary in Total_Per_Capita_list:  
+                item = name_dictionary.get("item", "count")
                 item_counts_dictionary[item] = item_counts_dictionary.get(item, 0) + 1
             return item_counts_dictionary
     except Exception as e:
@@ -66,7 +66,7 @@ def process_json_file():
     input_file: pathlib.Path = pathlib.Path(fetched_folder_name, "tobacco_usage.json")
     output_file: pathlib.Path = pathlib.Path(processed_folder_name, "tobacco_usage_json_processed.txt")
     
-    item_counts = count_astronauts_by_item(input_file)
+    item_counts = count_Totals_Per_Capita(input_file)
     output_file.parent.mkdir(parents=True, exist_ok=True)
     
     with output_file.open('w') as file:

@@ -274,3 +274,35 @@
 2025-01-31 16:11:29.461 | INFO     | __main__:<module>:84 - Starting JSON processing...
 2025-01-31 16:11:29.464 | INFO     | __main__:process_json_file:77 - Processed JSON file: tobacco_usage.json\tobacco_usage.json, Results saved to: tobacco_usage_json_processed\tobacco_usage_json_processed.txt
 2025-01-31 16:11:29.464 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 16:12:02.747 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 16:13:08.297 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 16:14:42.249 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 16:14:42.250 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 16:14:42.253 | INFO     | __main__:process_json_file:77 - Processed JSON file: tobacco_usage.json\tobacco_usage.json, Results saved to: tobacco_usage_json_processed\tobacco_usage_json_processed.txt
+2025-01-31 16:14:42.253 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 16:14:53.067 | INFO     | __main__:process_json_file:77 - Processed JSON file: tobacco_usage.json\tobacco_usage.json, Results saved to: tobacco_usage_json_processed\tobacco_usage_json_processed.txt
+2025-01-31 16:14:53.069 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 16:16:30.062 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 16:16:30.063 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 16:16:30.066 | INFO     | __main__:process_json_file:77 - Processed JSON file: tobacco_usage.json\tobacco_usage.json, Results saved to: tobacco_usage_json_processed\tobacco_usage_json_processed.txt
+2025-01-31 16:16:30.066 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 16:17:33.018 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 16:17:33.019 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 16:17:33.022 | INFO     | __main__:process_json_file:77 - Processed JSON file: tobacco_usage.json\tobacco_usage.json, Results saved to: tobacco_usage_json_processed\tobacco_usage_json_processed.txt
+2025-01-31 16:17:33.022 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 16:17:38.622 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 16:17:38.622 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 16:17:38.625 | INFO     | __main__:process_json_file:77 - Processed JSON file: tobacco_usage.json\tobacco_usage.json, Results saved to: tobacco_usage_json_processed\tobacco_usage_json_processed.txt
+2025-01-31 16:17:38.625 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 16:20:51.647 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 16:20:51.647 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 16:20:51.650 | INFO     | __main__:process_json_file:77 - Processed JSON file: tobacco_usage.json\tobacco_usage.json, Results saved to: tobacco_usage_json_processed\tobacco_usage_json_processed.txt
+2025-01-31 16:20:51.651 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 16:22:20.391 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 16:22:20.391 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 16:22:20.394 | INFO     | __main__:process_json_file:77 - Processed JSON file: tobacco_usage.json\tobacco_usage.json, Results saved to: tobacco_usage_json_processed\tobacco_usage_json_processed.txt
+2025-01-31 16:22:20.394 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 16:23:14.487 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 16:23:14.487 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 16:23:14.490 | INFO     | __main__:process_json_file:77 - Processed JSON file: tobacco_usage.json\tobacco_usage.json, Results saved to: tobacco_usage_json_processed\tobacco_usage_json_processed.txt
+2025-01-31 16:23:14.491 | INFO     | __main__:<module>:86 - JSON processing complete.
