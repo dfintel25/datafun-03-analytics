@@ -189,3 +189,60 @@
 2025-01-31 14:51:20.468 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
 2025-01-31 14:51:20.469 | INFO     | __main__:process_excel_file:55 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
 2025-01-31 14:51:20.469 | INFO     | __main__:<module>:64 - Excel processing complete.
+2025-01-31 14:56:17.935 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:56:17.935 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-01-31 14:56:17.936 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-01-31 14:56:17.937 | INFO     | __main__:process_excel_file:55 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 14:56:17.937 | INFO     | __main__:<module>:64 - Excel processing complete.
+2025-01-31 14:59:33.595 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:59:33.596 | INFO     | __main__:main:85 - Starting Excel fetch demonstration...
+2025-01-31 14:59:33.596 | INFO     | __main__:fetch_excel_file:44 - Fetching Excel data from https://github.com/dfintel25/Sample-Data/raw/refs/heads/main/municipal-building-energy-and-water-use.xlsx...
+2025-01-31 14:59:34.446 | INFO     | __main__:write_excel_file:68 - Writing Excel data to building_energy.xls\building_energy.xls...
+2025-01-31 14:59:34.449 | INFO     | __main__:write_excel_file:72 - SUCCESS: Excel data written to building_energy.xls\building_energy.xls
+2025-01-31 14:59:34.449 | INFO     | __main__:fetch_excel_file:48 - SUCCESS: Excel file fetched and saved as building_energy.xls
+2025-01-31 14:59:40.278 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 14:59:40.278 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-01-31 14:59:40.278 | ERROR    | __main__:count_word_in_column:42 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-01-31 14:59:40.279 | INFO     | __main__:process_excel_file:55 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 14:59:40.280 | INFO     | __main__:<module>:64 - Excel processing complete.
+2025-01-31 15:03:38.054 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 15:03:38.054 | INFO     | __main__:<module>:64 - Starting Excel processing...
+2025-01-31 15:03:38.055 | ERROR    | __main__:count_word_in_column:44 - Error reading Excel file: name 'pd' is not defined
+2025-01-31 15:03:38.056 | INFO     | __main__:process_excel_file:57 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 15:03:38.056 | INFO     | __main__:<module>:66 - Excel processing complete.
+2025-01-31 15:03:56.334 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 15:03:56.335 | INFO     | __main__:<module>:64 - Starting Excel processing...
+2025-01-31 15:03:56.448 | ERROR    | __main__:count_word_in_column:44 - Error reading Excel file: 'DataFrame' object has no attribute 'active'
+2025-01-31 15:03:56.451 | INFO     | __main__:process_excel_file:57 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 15:03:56.451 | INFO     | __main__:<module>:66 - Excel processing complete.
+2025-01-31 15:06:01.933 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 15:06:01.933 | INFO     | __main__:<module>:65 - Starting Excel processing...
+2025-01-31 15:06:02.069 | ERROR    | __main__:count_word_in_column:45 - Error reading Excel file: 'x'
+2025-01-31 15:06:02.071 | INFO     | __main__:process_excel_file:58 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 15:06:02.072 | INFO     | __main__:<module>:67 - Excel processing complete.
+2025-01-31 15:06:28.808 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 15:06:28.809 | INFO     | __main__:<module>:65 - Starting Excel processing...
+2025-01-31 15:06:28.936 | ERROR    | __main__:count_word_in_column:45 - Error reading Excel file: 'X'
+2025-01-31 15:06:28.938 | INFO     | __main__:process_excel_file:58 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 15:06:28.939 | INFO     | __main__:<module>:67 - Excel processing complete.
+2025-01-31 15:07:15.120 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 15:07:15.120 | INFO     | __main__:<module>:65 - Starting Excel processing...
+2025-01-31 15:07:15.252 | ERROR    | __main__:count_word_in_column:45 - Error reading Excel file: name 'sheet' is not defined
+2025-01-31 15:07:15.254 | INFO     | __main__:process_excel_file:58 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 15:07:15.254 | INFO     | __main__:<module>:67 - Excel processing complete.
+2025-01-31 15:08:37.582 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 15:08:37.582 | INFO     | __main__:<module>:65 - Starting Excel processing...
+2025-01-31 15:08:37.583 | ERROR    | __main__:count_word_in_column:45 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-01-31 15:08:37.584 | INFO     | __main__:process_excel_file:58 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 15:08:37.584 | INFO     | __main__:<module>:67 - Excel processing complete.
+2025-01-31 15:16:01.582 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 15:16:01.582 | INFO     | __main__:main:85 - Starting Excel fetch demonstration...
+2025-01-31 15:16:01.582 | INFO     | __main__:fetch_excel_file:44 - Fetching Excel data from https://github.com/dfintel25/Sample-Data/raw/refs/heads/main/All_Turfgrass_Data_ByLayer.xlsx...
+2025-01-31 15:16:02.411 | INFO     | __main__:write_excel_file:68 - Writing Excel data to turfgrass.xls\turfgrass.xls...
+2025-01-31 15:16:02.412 | INFO     | __main__:write_excel_file:72 - SUCCESS: Excel data written to turfgrass.xls\turfgrass.xls
+2025-01-31 15:16:02.413 | INFO     | __main__:fetch_excel_file:48 - SUCCESS: Excel file fetched and saved as turfgrass.xls
+2025-01-31 15:17:17.853 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 15:17:17.853 | INFO     | __main__:<module>:65 - Starting Excel processing...
+2025-01-31 15:17:17.854 | ERROR    | __main__:count_word_in_column:45 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-01-31 15:17:17.855 | INFO     | __main__:process_excel_file:58 - Processed Excel file: turfgrass.xls\turfgrass.xls, Word count saved to: turfgrass_processed.xls\turfgrass_processed.xls
+2025-01-31 15:17:17.856 | INFO     | __main__:<module>:67 - Excel processing complete.
