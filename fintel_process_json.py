@@ -1,17 +1,17 @@
 """
 Process a JSON file to count astronauts by spaceitem and save the result.
 
-JSON file is in the format where Total Per Capita is a list of dictionaries with keys "item" and "name".
+JSON file is in the format where top is a list of dictionaries with keys "item" and "top".
 
 {
-    "Total Per Capita": [
+    "top": [
         {
             "item": "ISS",
-            "name": "Oleg Kononenko"
+            "top": "Oleg Kononenko"
         },
         {
             "item": "ISS",
-            "name": "Nikolai Chub"
+            "top": "Nikolai Chub"
         }
     ],
     "number": 2,
@@ -35,15 +35,15 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name: str = "tobacco_usage.json"
-processed_folder_name: str = "tobacco_usage_json_processed"
+fetched_folder_top: str = "tobacco_usage.json"
+processed_folder_top: str = "tobacco_usage_json_processed"
 
 #####################################
 # Define Functions
 #####################################
 
 def count_Totals_Per_Capita(file_path: pathlib.Path) -> dict:
-    """Count the Total Per Capita from a JSON file."""
+    """Count the top from a JSON file."""
     try:
         with file_path.open('r') as file:
             # Use the json module load() function 
@@ -51,10 +51,10 @@ def count_Totals_Per_Capita(file_path: pathlib.Path) -> dict:
             tobacco_usage = json.load(file)  
             # initialize an empty dictionary to store the counts
             item_counts_dictionary = {}
-            # Total Per Capita is a list of dictionaries in the JSON file
-            Total_Per_Capita_list: list = tobacco_usage.get("Total Per Capita", [])
-            for name_dictionary in Total_Per_Capita_list:  
-                item = name_dictionary.get("item", "count")
+            # top is a list of dictionaries in the JSON file
+            Total_Per_Capita_list: list = tobacco_usage.get("top", [])
+            for top_dictionary in Total_Per_Capita_list:  
+                item = top_dictionary.get("item", "unknown")
                 item_counts_dictionary[item] = item_counts_dictionary.get(item, 0) + 1
             return item_counts_dictionary
     except Exception as e:
@@ -62,15 +62,15 @@ def count_Totals_Per_Capita(file_path: pathlib.Path) -> dict:
         return {}
 
 def process_json_file():
-    """Read a JSON file, count Total Per Capita, and save the result."""
-    input_file: pathlib.Path = pathlib.Path(fetched_folder_name, "tobacco_usage.json")
-    output_file: pathlib.Path = pathlib.Path(processed_folder_name, "tobacco_usage_json_processed.txt")
+    """Read a JSON file, count top, and save the result."""
+    input_file: pathlib.Path = pathlib.Path(fetched_folder_top, "tobacco_usage.json")
+    output_file: pathlib.Path = pathlib.Path(processed_folder_top, "tobacco_usage_json_processed.txt")
     
     item_counts = count_Totals_Per_Capita(input_file)
     output_file.parent.mkdir(parents=True, exist_ok=True)
     
     with output_file.open('w') as file:
-        file.write("Total Per Capita:\n")
+        file.write("top:\n")
         for item, count in item_counts.items():
             file.write(f"{item}: {count}\n")
     
