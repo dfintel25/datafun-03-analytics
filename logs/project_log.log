@@ -329,3 +329,14 @@
 2025-01-31 19:36:22.414 | INFO     | __main__:<module>:52 - Starting text processing...
 2025-01-31 19:36:22.422 | INFO     | __main__:process_text_file:45 - Processed text file: iolp_buildings.txt\iolp_buildings.txt, Word count saved to: iolp_buildings_txt.processed\iolp_buildings_txt.processed
 2025-01-31 19:36:22.423 | INFO     | __main__:<module>:54 - Text processing complete.
+2025-01-31 19:47:57.933 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:47:57.934 | INFO     | __main__:<module>:74 - Starting CSV processing...
+2025-01-31 19:47:57.934 | ERROR    | __main__:analyze_solar_acres:49 - Error processing CSV file: [Errno 2] No such file or directory: 'fintel_solar\\fintel_solar'
+2025-01-31 19:48:24.612 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:48:24.613 | INFO     | __main__:<module>:74 - Starting CSV processing...
+2025-01-31 19:48:24.614 | ERROR    | __main__:analyze_solar_acres:49 - Error processing CSV file: [Errno 2] No such file or directory: 'fintel_solar\\fintel_solar'
+2025-01-31 19:49:16.978 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:49:16.978 | INFO     | __main__:<module>:65 - Starting Excel processing...
+2025-01-31 19:49:16.979 | ERROR    | __main__:count_word_in_column:45 - Error reading Excel file: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+2025-01-31 19:49:16.981 | INFO     | __main__:process_excel_file:58 - Processed Excel file: building_energy.xls\building_energy.xls, Word count saved to: building_energy_processed.xls\building_energy_processed.xls
+2025-01-31 19:49:16.981 | INFO     | __main__:<module>:67 - Excel processing complete.
